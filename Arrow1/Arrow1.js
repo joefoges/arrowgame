@@ -40,11 +40,11 @@ export default class Arrow1 extends Sprite {
   }
 
   /* Generator fn ⇒ runs one frame per `yield` */
-  *cloneBehavior() {
+    *cloneBehavior() {
     this.visible = true;
     while (!this.touching("edge")) {
-      this.move(12);   // speed; tweak to taste
-      yield;           // wait 1 frame
+      this.move(12);
+      yield;
     }
     this.deleteThisClone();
   }
