@@ -4,7 +4,8 @@ import {
   Sprite,
   Trigger,
   Costume
-} from "https://unpkg.com/leopard@1.12.0/dist/index.esm.js";
+} from "https://unpkg.com/leopard@1.6.1/dist/index.esm.js";
+
 
 
 export default class Arrow1 extends Sprite {
