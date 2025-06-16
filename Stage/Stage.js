@@ -1,13 +1,13 @@
 /* eslint-disable require-yield, eqeqeq */
 
 import {
-  Stage as StageBase,
+  Sprite,        // or Project, Trigger, Costume, etc.
   Trigger,
-  Watcher,
-  Costume,
-  Color,
-  Sound,
-} from "https://unpkg.com/leopard@^1/dist/index.esm.js";
+  Costume
+} from "https://unpkg.com/leopard@1.6.1/dist/index.esm.js";
+
+// [plus any other local imports in the same folder]
+
 
 export default class Stage extends StageBase {
   constructor(...args) {
