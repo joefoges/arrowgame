@@ -1,10 +1,13 @@
 /* eslint-disable require-yield, eqeqeq */
 
 import {
-  Sprite,
+  Sprite,        // or Project, Trigger, Costume, etc.
   Trigger,
   Costume
-} from "https://unpkg.com/leopard@1.12.0/dist/index.esm.js";
+} from "https://unpkg.com/leopard@1.6.1/dist/index.esm.js";
+
+// [plus any other local imports in the same folder]
+
 
 export default class Apple extends Sprite {
   constructor(...args) {
