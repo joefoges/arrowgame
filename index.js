@@ -1,7 +1,8 @@
 import {
-  Project,
   Sprite,
-} from "https://unpkg.com/leopard@^1/dist/index.esm.js";
+  Trigger,
+  Costume
+} from "https://unpkg.com/leopard@1.12.0/dist/index.esm.js";
 
 import Stage from "./Stage/Stage.js";
 import KittyCcat from "./KittyCcat/KittyCcat.js";
