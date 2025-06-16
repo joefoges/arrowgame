@@ -1,6 +1,11 @@
 /* Arrow1.js — projectile that launches from AppleCatcher and flies forward */
 
-import { Sprite, Trigger, Costume } from "leopard";
+import {
+  Sprite,
+  Trigger,
+  Costume
+} from "https://unpkg.com/leopard@1.12.0/dist/index.esm.js";
+
 
 export default class Arrow1 extends Sprite {
   constructor(...args) {
